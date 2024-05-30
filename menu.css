@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 200px; 
+    height: 60vh;
+    border: 1px solid #ddd;
+}
+
+.section {
+    margin-bottom:5px;
+}
+
+.section-title {
+    background-color: #800080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.icon {
+    margin-right: 10px;
+}
